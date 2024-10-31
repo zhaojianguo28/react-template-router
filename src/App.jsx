@@ -7,7 +7,6 @@ function App() {
 
   return (
     <Suspense>
-      <div>app页面</div>
       <RouterProvider router={routes} />
    </Suspense>
   )
